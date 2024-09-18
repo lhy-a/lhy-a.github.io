@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { enNavbar} from "./navbar/index.js";
+import { enSidebar} from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://blog.hying.fun",
@@ -11,9 +11,9 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
-
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-
+  
+  favicon : "y.svg",
+  logo: "y.svg",
   repo: "https://github.com/lhy-a/lhy-a.github.io",
 
   docsDir: "src",
@@ -48,13 +48,13 @@ export default hopeTheme({
   plugins: {
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     searchPro: {
       indexContent: true,
