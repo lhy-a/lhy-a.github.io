@@ -21,3 +21,9 @@ icon:  file
    ```bash
    kubectl config get-contexts
    ```
+
+4. 合并两个k8s集群的配置
+
+    ```bash
+    export KUBECONFIG=/path/to/first/kubeconfig:/path/to/second/kubeconfig
+    ```
